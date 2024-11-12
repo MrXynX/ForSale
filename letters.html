@@ -39,16 +39,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hi, my Yellow,</h1>
+        <h1>Hi, My Yellow,</h1>
         <p>Sorry for interrupting, but I just wanted to remind you that you are deeply appreciated. Please don't hurt yourself with the negative thoughts that may come into your mind. Never think that I will leave you—especially when we finally meet. Know that nothing will change between us. I want you to always remember that I accept you for who you are, so don’t feel insecure. If only you could see yourself through my eyes, you would realize just how beautiful you truly are.</p>
         <p>Please take care of your mental health as well. Don’t let negative thoughts overpower you. I will always be by your side whenever you feel alone or when it seems like the world is against you. Even if others aren't there, remember that I am. We will face any challenge the world throws at us, together. We will live and grow side by side.</p>
         <p>Before I end this letter, I want to remind you that I will always pursue you, no matter what happens. I know how much pain your past has caused you, and I will never let it repeat. I won’t allow anyone to hurt you again the way they did before.</p>
         <div class="signature">
             <p>Sincerely,<br>Aizen</p>
-            <audio controls>
-            <source src=https://audio.jukehost.co.uk/Zgyc85sXGJ7NHLjhgccz6gxfUZXy2HnX>
-            </audio>
-            </div>
-            </div>
-            </body>
-            </html>
+        </div>
+    </div>
+
+    <audio id="music" src="https://audio.jukehost.co.uk/Zgyc85sXGJ7NHLjhgccz6gxfUZXy2HnX"></audio>
+
+    <script>
+        document.body.addEventListener('dblclick', function() {
+            const music = document.getElementById('music');
+            if (music.paused) {
+                music.play();
+            } else {
+                music.pause();
+            }
+        });
+    </script>
+</body>
+</html>
