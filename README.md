@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -190,7 +190,7 @@
             Kaizen
         </p>
         <!-- Audio Element -->
-        <audio id="romanticMusic" autoplay>
+        <audio id="romanticMusic" autoplay loop>
             <source src="https://www.dropbox.com/scl/fi/iqxqbjlt1ozpznaax0qdy/ssstik.io_1730202009660.mp3?rlkey=vdlm2ohm0dsolyi03cuaxzzfj&st=qdqp0czb&dl=1" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
